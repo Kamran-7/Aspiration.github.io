@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100&family=Noto+Serif:wght@400;700&family=Poppins:wght@100&family=Roboto+Slab:wght@100&display=swap');
+
+    body {
+        background-image: url(img26.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #form-container {
+        background-color: rgb(13, 17, 13);
+        text-align: center;
+        padding: 50px;
+        border-radius: 15px;
+
+
+    }
+
+    h2 {
+        margin: 0px 0px 10px 0px;
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    input {
+        width: 200px;
+        margin: 10px 0px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #bt {
+        width: 200%;
+        font-size: 20px;
+        background-color: #3498db;
+        border: 1px solid black;
+        padding: 5px;
+        padding-left: 7px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 7px;
+    }
+
+    .error {
+        color: red;
+        margin: 0;
+        text-align: left;
+    }
+
+    #h1 {
+        position: absolute;
+        left: 100px;
+        bottom: 780px;
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    #h3 {
+        position: absolute;
+        left: 100px;
+        bottom: 740px;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+
+
+    }
+</style>
+
+<body>
+    <!-- two tyopes of validation server side and client side  -->
+    <h1 id="h1"><i>WELCOME TO THE ASPIRATIONS TRUST WEBSITE</i></h1>
+    <h3 id="h3">Please log in before proceeding</h3>
+    <div id="form-container">
+        <h2><i>Log In</i></h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" placeholder="username" id="username"><br>
+            <p id="userError" class="error"></p>
+            <input type="password" placeholder="password" id="password"><br>
+            <p id="passError" class="error"></p><br><br>
+            <a id="bt" class="nav-link active" aria-current="page" href="home.html">Log in</a>
+            <a id="bt" class="nav-link active" aria-current="page" href="register.html">Register</a>
+        </form>
+    </div>
+    <script>
+        let username = document.getElementById("username");
+        let password = document.getElementById("password");
+        let flag = 1;
+
+        function validateForm() {
+            if (username.value == "") {
+                document.getElementById("userError").innerHTML = "Username is empty";
+                flag = 0;
+            } else if (username.value.length < 3) {
+                flag = 0;
+                document.getElementById("userError").innerHTML = "Username require mnimum 3 char";
+            } else {
+                document.getElementById("userError").innerHTML = "";
+                flag = 1;
+            }
+            if (password.value == "") {
+                document.getElementById("passError").innerHTML = "password is empty"
+                flag = 0;
+            } else {
+                document.getElementById("passError").innerHTML = "";
+                flag = 1;
+            }
+            if (flag) {
+                return true;
+            } else {
+                return false;
+
+            }
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

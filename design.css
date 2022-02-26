@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Slab:wght@100&display=swap');
+#head{
+    background-color: rgb(144, 238, 2);
+}
+#nav{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+

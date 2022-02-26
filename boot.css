@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100&family=Noto+Serif:wght@400;700&family=Poppins:wght@100&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+}
+#ig1{
+    height: 600px;
+}
+#ig2{
+    height: 600px;
+}
+#ig3{
+    height: 600px;
+}
+#ig4{
+    height: 300px;
+
+}
+.tp{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}
+#to{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#cd{
+    position:absolute;
+    left:200px;
+    border: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(4, 29, 4);
+    position: absolute;
+    left: 80px;
+    font-family: 'Roboto Slab', serif;
+}
+#cd1{
+    position: absolute;
+    left: 800px;
+}
+#ig5{
+    height: 450px;
+}
+#bt{
+    font-size: 25px;
+    font-weight: bold;
+}
+#bt1{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#cd3{
+    position: absolute;
+    left: 800px;
+    bottom: 1200px;
+}
+.card1{
+    border: none;
+}
+.container1{
+    width: 1700px;
+    background-color:  rgb(15, 15, 15);
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+#btn{
+    background-color: rgb(18, 66, 68);
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+#cont{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    right: 800px;
+    top: 200px;
+    background-color: azure;
+}
+.relative mb-4{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center{
+    position: absolute;
+    top: 700px;
+}
+#bg{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+.h6{
+    font-family: 23px;
+    font-weight: bold;
+
+}
+#h3{
+    position: absolute;
+    top: 60px;
+    color:  rgb(2, 20, 2);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+#po{
+    background-color: azure;
+}
+#by{
+    background-image: url(img26.jpg);
+    color: white;
+}
+#frm{
+    width: 20%;
+  position: absolute;
+  right: 700px;
+  top: 200px;
+}
+#hd{
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
+   position: absolute;
+   left: 750px;
+   bottom:700px;
+}
+#bts{
+    color: white;
+    border: 2px solid black;
+    padding: 8px;
+    padding-left: 8px;
+    margin-left: 8px;
+    text-align: center;
+    background-color: rgb(9, 152, 247);
+    width: 50%;
+    position: absolute;
+    right: 80px;
+    border-radius: 8px;
+}
